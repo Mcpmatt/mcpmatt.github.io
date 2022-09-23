@@ -6,10 +6,10 @@
     </head>
     <style>
 	body {background-color: #B9C4C6;
-              background-image: url("myBackground.jpg");
+              background-image: url("myBackground1.jpg");
               background-position: center;
               background-repeat: no-repeat;
-              background-size: auto;
+              background-size: 900px 1800px;
               max-width: 900px;
               margin: auto;
              }
@@ -20,6 +20,8 @@
 	table {margin-left: auto;
 	       margin-right: auto;
 	      }
+	#appsTable {border-spacing: 20px;
+		    }
     </style>
     
     <body>
@@ -37,8 +39,26 @@
         </table>
         
       <h1><strong>Welcome to Matt's Javascript</strong></h1>
-      <p> This is where I will be storing all the Apps I make using Javascript. <br><br>
-      Back to <a href="index.html">Home Page</a> </p>
+      <p> This is where I will be storing all the Javascript Apps I made using the tools at Khan Academy. <br> Back to <a href="index.html">Home Page</a>
+      
+	<table id="appsTable">
+	 <tr>  
+	<td><h2><a href="https://www.khanacademy.org/computer-programming/petrarca_bitmoji/5756616760147968">petrarca_bitmoji</a></h2></td>
+	<td><h2><a href="https://www.khanacademy.org/computer-programming/petrarca_dancingbitmoji/6133264319823872">petrarca_dancingBitmoji</a></h2></td>
+	</tr>
+	<tr>
+	<td><script id="mattMoji" src="https://www.khanacademy.org/computer-programming/petrarca_bitmoji/5756616760147968/embed.js?editor=no&buttons=no&author=no&embed=yes"></script></td>
+        <td><script id="mattDance"  src="https://www.khanacademy.org/computer-programming/petrarca_dancingbitmoji/6133264319823872/embed.js?editor=no&buttons=no&author=no&embed=yes"></script></td></tr>
+        
+	<tr>
+	<td><h2><a href="https://www.khanacademy.org/computer-programming/petrarca_racingbitmoji/4960212517175296">petrarca_racingBitmoji</a></h2>
+	</tr>
+	<tr>
+	<td><script src="https://www.khanacademy.org/computer-programming/petrarca_racingbitmoji/4960212517175296/embed.js?editor=no&buttons=no&author=no&embed=yes"></script></td>
+	</tr>
+	</table>
+	</p>
+	
     </body>
   
 </html>
